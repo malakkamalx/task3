@@ -8,7 +8,7 @@ namespace PaymentSystem
         static void Main(string[] args)
         {
             // Credit Card
-            CreditCard creditCard = new CreditCard(500, 300);
+            CreditCard creditCard = new CreditCard(50, 50);
 
             bool creditResult = PaymentProcessor.ProcessPayment(creditCard, 700);
 
